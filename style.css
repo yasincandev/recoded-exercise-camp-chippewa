@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f4ef;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-top: 5px;
+  font-family: "Bevan", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.row {
+  border: 1px solid lightgray;
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  gap: 3rem;
+  box-shadow: 20px -10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.img-container {
+  box-shadow: -20px -10px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.price {
+  font-size: 2.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.price h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.price p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-container {
+  width: 100%;
+  color: #2a3634;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #9bcbbb;
+  padding: 15px;
+}
+.contact {
+  text-align: center;
+}
+
+form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #000;
+}
+
+form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: #000 1px solid;
+  outline: none;
+}
+
+.name-mail {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.btn {
+  width: 75%;
+  text-align: right;
+}
+
+button {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #2a3634;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.adress-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social i {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 90%;
+  }
+  .img-container {
+    width: 100%;
+    height: 100%;
+  }
+  .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .price {
+    font-size: 2em;
+  }
+  .price h1 {
+    font-size: 20px;
+  }
+  .price p {
+    font-size: 14px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 100%;
+  }
+  .row {
+    flex-direction: column;
+    width: 90%;
+  }
+  .img-container {
+    width: 100%;
+    height: 100%;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .price {
+    font-size: 1.5em;
+  }
+  .price h1 {
+    font-size: 18px;
+  }
+  .price p {
+    font-size: 12px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
