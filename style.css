@@ -42,7 +42,8 @@ header h1 {
 .row {
   border: 1px solid lightgray;
   display: flex;
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
   padding: 20px;
   gap: 3rem;
   box-shadow: 20px -10px 20px rgba(0, 0, 0, 0.2);
